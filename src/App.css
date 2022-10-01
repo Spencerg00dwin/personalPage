@@ -28,6 +28,15 @@
   color: #61dafb;
 }
 
+.font-link{
+  font-family: 'Lora', serif;
+}
+
+.icon{
+  color: #212529;
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
