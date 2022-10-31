@@ -11,8 +11,8 @@ export default function App() {
       <Particle />
       <div className="container">
         <div className="mt-5 pt-5">
-          <h1 className="mt-5 font-link" style={{ fontSize: "150px", textAlign: "center" }}>
-            Hey, I'm Spencer Goodwin
+          <h1 className="mt-5 font-link" style={{ fontSize: "150px", textAlign: "center"}}>
+            Hey, I'm Spencer Goodwin.
           </h1>
           <div className="text-center" style={{ fontSize: "90px" }}>
             <a href="https://github.com/Spencerg00dwin">
