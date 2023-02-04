@@ -1,6 +1,6 @@
 import React from "react";
-import Particle from "./components/Particle";
-import Pdf from "./documents/spencer-resume.pdf"
+// import Particle from "./components/Particle";
+// import Pdf from "./documents/spencer-resume.pdf"
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
@@ -10,11 +10,14 @@ export default function App() {
     <>
       {/* <Particle /> */}
       {/* <div className="container bg-white rounded" style={{ height: "750px"}}> */}
-      <div>
-          <h1 className="mt-5 font-link" style={{ fontSize: "50px"}}>
-            Hey, I'm Spencer Goodwin.
-          </h1>
-          <div className="text-center" style={{ fontSize: "90px" }}>
+      <div className="container">
+        <div className="row pt-4">
+          <div className="col-sm">
+            <h1 className="font-link" style={{ fontSize: "40px"}}>
+              Hey, I'm Spencer Goodwin.
+            </h1>
+          </div>
+          <div className="text-center col-sm" style={{ fontSize: "50px" }}>
             <a href="https://github.com/Spencerg00dwin">
               <i className="bi bi-github px-5 icon"></i>
             </a>
@@ -26,6 +29,7 @@ export default function App() {
             <a href="https://www.linkedin.com/in/spencer-goodwin/">
               <i className="bi bi-linkedin px-5 icon"></i>
             </a>
+            </div>
           </div>
       </div>
     </>
