@@ -19,19 +19,6 @@ export default function App() {
               Hey, I'm Spencer Goodwin.
             </h1>
           </div>
-          <div className="text-center col-sm" style={{ fontSize: "50px" }}>
-            <a href="https://github.com/Spencerg00dwin">
-              <i className="bi bi-github px-5 icon"></i>
-            </a>
-            {/* <a href={Pdf}> */}
-              {/* <embed src={Pdf}>
-                <i className="bi bi-file-earmark-person px-5 icon"></i>
-              </embed> */}
-            {/* </a> */}
-            <a href="https://www.linkedin.com/in/spencer-goodwin/">
-              <i className="bi bi-linkedin px-5 icon"></i>
-            </a>
-            </div>
           </div>
       </div>
     </>
