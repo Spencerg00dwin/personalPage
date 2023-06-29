@@ -1,4 +1,3 @@
-Spencer's Website <> spencergoodwin.dev
 
 # Getting Started with Create React App
 
