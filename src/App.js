@@ -1,6 +1,7 @@
 import React from "react";
 import Particle from "./components/Particle";
-import Pdf from "./documents/resume.pdf"
+// import Pdf from "./documents/resume.png"
+import Pdf from "./documents/Spencer_Goodwin_Resume.pdf"
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
@@ -18,7 +19,7 @@ export default function App() {
             <a href="https://github.com/Spencerg00dwin">
               <i className="bi bi-github px-5 icon"></i>
             </a>
-            <a href={Pdf}>
+            <a href={Pdf} target="_blank" rel="noreferrer">
               <i className="bi bi-file-earmark-person px-5 icon"></i>
             </a>
             <a href="https://www.linkedin.com/in/spencer-goodwin/">
