@@ -9,6 +9,7 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 export default function App() {
   return (
     <>
+      {/* backdrop */}
       <Particle />
       <div className="container">
         <div className="mt-5 pt-5">
